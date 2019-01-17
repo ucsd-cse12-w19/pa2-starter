@@ -2,7 +2,7 @@ package cse12pa2student;
 
 class UpperCaseTransformer implements StringTransformer {
 
-	public String transform(String s) {
+	public String transformElement(String s) {
 		return s.toUpperCase();
 	}
 
